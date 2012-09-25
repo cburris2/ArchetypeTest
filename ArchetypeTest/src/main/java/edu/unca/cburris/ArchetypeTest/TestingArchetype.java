@@ -20,11 +20,11 @@ package edu.unca.cburris.ArchetypeTest;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class ArchetypeTest extends JavaPlugin {
+public class TestingArchetype extends JavaPlugin {
 
 	//ClassListeners
-	private final ArchetypeTestCommandExecutor commandExecutor = new ArchetypeTestCommandExecutor(this);
-	private final ArchetypeTestEventListener eventListener = new ArchetypeTestEventListener(this);
+	private final TestingArchetypeCommandExecutor commandExecutor = new TestingArchetypeCommandExecutor(this);
+	private final TestingArchetypeEventListener eventListener = new TestingArchetypeEventListener(this);
 	//ClassListeners
 
 	public void onDisable() {
